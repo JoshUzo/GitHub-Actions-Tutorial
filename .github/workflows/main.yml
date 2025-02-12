@@ -11,4 +11,5 @@ jobs:
 
      - name: Run a simple Github action
        run: echo "Github actions is cool" 
+       run: echo "God is good" 
      
