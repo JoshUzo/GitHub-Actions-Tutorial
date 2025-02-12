@@ -14,3 +14,9 @@ jobs:
         env:
           VALIDATE_ALL_CODEBASE: true
           GITHUB_TOKEN: ${{ secrets.GIT_TOKEN }}
+          VALIDATE_YAML: true
+          VALIDATE_JSON: true
+          VALIDATE_PYTHON: true
+          VALIDATE_JAVASCRIPT_ES: true
+          VALIDATE_CHECKOV: true  # Ensure Checkov runs correctly
+          VALIDATE_GITHUB_ACTIONS: true  # Validate GitHub Actions YAML files
