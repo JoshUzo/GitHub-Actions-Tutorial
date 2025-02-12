@@ -13,4 +13,6 @@ jobs:
        run: |
             echo "Github actions is cool" 
             echo "God is good" 
+     - name: Simulating Error
+       run: echo "error taking place"; exit 1
      
