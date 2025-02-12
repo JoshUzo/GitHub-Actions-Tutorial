@@ -10,6 +10,7 @@ jobs:
      - uses: actions/checkout@v3
 
      - name: Run a simple Github action
-       run: echo "Github actions is cool" 
-       run: echo "God is good" 
+       run: |
+            echo "Github actions is cool" 
+            echo "God is good" 
      
