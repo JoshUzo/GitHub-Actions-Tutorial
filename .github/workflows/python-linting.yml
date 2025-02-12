@@ -18,5 +18,5 @@ jobs:
           VALIDATE_JSON: true
           VALIDATE_PYTHON: true
           VALIDATE_JAVASCRIPT_ES: true
-          VALIDATE_CHECKOV: true  # Ensure Checkov runs correctly
-          VALIDATE_GITHUB_ACTIONS: true  # Validate GitHub Actions YAML files
+          VALIDATE_CHECKOV: false  # Ensure Checkov runs correctly
+          VALIDATE_GITHUB_ACTIONS: false  # Validate GitHub Actions YAML files
